@@ -1,6 +1,6 @@
 package ua.cn.stu.cs.oop.lab.lab4.model;
 
-public abstract class AbstractForm {
+public abstract class AbstractForm implements IWeight{
     protected Wood wood;
     public abstract float volume();
 

@@ -25,10 +25,6 @@ public class Wood {
 
     @Override
     public String toString() {
-        return "Wood{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", density=" + density +
-                '}';
+        return name;
     }
 }
